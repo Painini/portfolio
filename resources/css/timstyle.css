@@ -1,0 +1,31 @@
+h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+body{
+    background-color: lightsteelblue;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#contact{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight:100;
+    color:gray;
+}
+h2{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    text-align: left;
+}
+#line
+{
+    margin-top: 15px;
+    border: 5px darkcyan solid;
+}
