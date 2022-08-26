@@ -4,17 +4,55 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portfolios</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+	<script src="resources/script/script.js"></script>
 </head>
-<body bgcolor="lightblue">
+<body id="body">
 
-<h1>Portfolios</h1>
-<h2>Hejsan, denna webbplats innehåller portfolios för Tim, Sakda och Anna :D</h2>
+	
+		
 
-<a href="anna.html">Annas portfolio</a>
-<div></div>
-<a href="tim.html">Tims portfolio</a>
-<div></div>
-<a href="sakda.html">Sakdas portfolio</a>
+
+<h1 id="header1">Portfolios</h1>
+<div id="Right">
+	<input type="button" id="darkbutton" value="DarkMode" onclick="DarkMode()">
+</div>
+<h2 id="header2">Hejsan, denna webbplats innehåller portfolios för Tim, Sakda och Anna :D</h2>
+
+<hr>
+<div id="Center">
+	<table>				
+		<tr>
+
+			<button id="portButton" onclick="location.href='anna.html'" type="button">
+				Annas portfolio
+			</button>
+	
+			<button  id="portButton" onclick="location.href='tim.html'" type="button">
+				Tims portfolio
+			</button>
+	
+			<button  id="portButton" onclick="location.href='sakda.html'" type="button">
+			Sakdas portfolio
+			</button>
+		</tr>		
+	</table>
+</div>	
+	
+<hr>
+	
+	
+	<div></div>
+	
+	<div id="Center">
+		<img src="resources/img/img_20220825_142949.jpg">
+	</div>
+	
+	
+	<div></div>
+
+
+
 
 
 </body>
