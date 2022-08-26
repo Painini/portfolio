@@ -1,0 +1,64 @@
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#darkbutton{
+    border: none;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 2mm;
+    display: flex;
+    justify-content: right;
+    
+}
+
+#portButton{
+    border: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 17px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 2mm;
+
+}
+
+#portButton:hover{
+    background-color: rgb(207, 207, 207);
+    transition: all 0.2s ease-in;
+}
+
+#darkbutton:hover{
+    background-color: #f1f17f;
+    transition: all 0.2s ease-in;
+}
+img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#Center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+}
+
+#Right{
+    float: right;
+}
+
+h3 {
+    text-align: center;
+}
