@@ -58,3 +58,7 @@ img{
 #Right{
     float: right;
 }
+
+h3 {
+    text-align: center;
+}
