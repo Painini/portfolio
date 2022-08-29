@@ -1,2 +1,3 @@
-# gemensamt repository för gruppens portfolion :D
+# gemensamt repository för gruppens portfolion
+
 
